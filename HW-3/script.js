@@ -18,7 +18,7 @@ function firstLetter(name){
  //4
 function amountAfterTax(salary){
 	const tax = 19.5;
-    const theAmountOfTax = (salary/100)*tax;
+    const theAmountOfTax = (salary /100 ) * tax;
   	return salary - theAmountOfTax;
 }
 
