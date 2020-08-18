@@ -38,5 +38,5 @@ const generateBlocks = () => {
 
 const generateBlocksInterval = () => {
     generateBlocks();
-    interval = setTimeout(colorOfCells, 1000);
+    interval = setInterval(colorOfCells, 1000);
 }
