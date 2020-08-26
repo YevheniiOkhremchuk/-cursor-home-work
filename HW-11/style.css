@@ -1,0 +1,29 @@
+body{
+    background: rgb(71, 71, 71); 
+}
+.container{
+     width: 300px;
+     margin: 150px auto;
+}
+.numeric{
+     border: 2px solid black;
+     padding: 7px 5px;	
+     border-radius: 20px;
+     margin-right: 20px;
+}
+.get{
+     padding: 7px 10px;
+     border-radius: 20px;
+}
+.result{
+    text-align: center;
+    margin-top: 10px;
+    color: #ffc600;
+    font-size: 30px;
+}
+h2{
+	text-align: center;
+	margin-top: 8px;
+	 color: #fff;
+	 font-size: 18px;
+}
