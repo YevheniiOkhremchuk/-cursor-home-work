@@ -11,8 +11,9 @@ const toHttps = (url) =>
 const getInformation = (url) =>  {
 const newUrl = toHttps(url);
   return fetch(newUrl)
-    .then((res) => res.json())  
-}
+    .then((res) => res.json())
+    .catch("error");
+};
 
 function showEpisode (num) {
   return `${BASE}films/${num}/`;
