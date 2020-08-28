@@ -1,0 +1,80 @@
+@font-face{
+     font-family: Star Wars-font;
+     src: url(Starjedi.ttf);
+}
+body{
+     font-family: Star Wars-font;
+     background: url(img/star11.jpg) bottom center;
+     color: #E7AE05; 
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 70px;
+}
+.content-wrapper{
+   display: flex; 
+}
+.information-about-the-heroes{
+     width: 65%;
+     line-height: 25%;
+}
+.information-about-the-planets{
+     width: 33%;
+     line-height: 25%;
+}
+.information{
+     padding: 30px;
+     display: flex;
+     justify-content: space-around;
+}
+.select{
+     font-size: 17px;
+     width: 45%;
+     background-color: #bd2130;
+     border: 4px solid #7a5858;
+     border-radius: 35px;
+     color: #f29019;
+     padding: 5px 5px;
+}
+.btn-get-information-characters{
+     width: 24%;
+     background-color: #bd2130;
+     border: 4px solid #7a5858;
+     border-radius: 35px;
+     color: #f29019;
+     font-size: 17px;
+}
+.characters-information{
+     text-align: center;
+     -webkit-text-stroke-width: .5px;
+     -webkit-text-stroke-color: black;
+     font-size: 20px;
+}
+.btn-get-information-planets{
+     background-color: #bd2130;
+     border: 4px solid #7a5858;
+     border-radius: 35px;
+     color: #f29019;
+     font-size: 17px;
+     width: 35%;
+     padding: 5px 5px;  
+}
+.next-planet{
+     background-color: #bd2130;
+     border: 4px solid #7a5858;
+     border-radius: 35px;
+     color: #f29019;
+     margin-right: 10%;
+     font-size: 17px;
+     padding: 5px 10px;
+}
+.planet-list{
+     text-align: center;
+     -webkit-text-stroke-width: .5px;
+     -webkit-text-stroke-color: black;
+      font-size: 17px;
+}
+h3, h4{
+     display: inline-block;
+}
