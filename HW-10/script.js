@@ -30,4 +30,4 @@ function musicPlayback(e){
       break;
   };
 };
-document.addEventListener("keydown", musicPlayback);
+document.addEventListener("keyup", musicPlayback);
