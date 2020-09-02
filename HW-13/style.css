@@ -1,0 +1,17 @@
+body{
+    background: #785487;
+    text-align: center;
+    margin-top: 60px;
+}
+#gener{
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+#result{
+    margin-top: 20px;
+    font-size: 25px;
+}
