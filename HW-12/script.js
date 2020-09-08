@@ -48,6 +48,7 @@ let characters = "";
                           <h4>Gender</h3><h3>: ${elem.gender}.</h3>
                       </div>`;
         listCharacters.innerHTML = `${characters}`;
+        showInformation
       });
     });
 });
@@ -74,6 +75,7 @@ nextPagePlanet.addEventListener("click", () => {
   if (nextPlanet > 16) { 
     return
   } else {
+    
     getInformation(genPlanets(page += 1)).then((res) => {
       let planet = "";
       res.results.forEach((elem) => {
@@ -87,4 +89,3 @@ nextPagePlanet.addEventListener("click", () => {
     });
   }
 });
-

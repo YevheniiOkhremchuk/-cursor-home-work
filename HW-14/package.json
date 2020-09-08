@@ -1,0 +1,28 @@
+{
+  "name": "hw-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YevheniiOkhremchuk/home-work-Yevhenii/tree/master/HW-14"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YevheniiOkhremchuk/home-work-Yevhenii/tree/master/HW-14"
+  },
+  "homepage": "https://github.com/YevheniiOkhremchuk/home-work-Yevhenii/tree/master/HW-14",
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
+

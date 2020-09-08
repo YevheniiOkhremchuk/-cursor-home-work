@@ -12,6 +12,26 @@ body{
     border-radius: 10px;
 }
 #result{
-    margin-top: 20px;
+    margin: 20px;
     font-size: 25px;
+}
+#down{
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px
+}
+#up{
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px 
+}
+#size{
+    color: #E7AE05; 
+    margin: 20px;
 }
