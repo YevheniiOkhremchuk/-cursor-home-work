@@ -48,11 +48,13 @@ let characters = "";
                           <h4>Gender</h3><h3>: ${elem.gender}.</h3>
                       </div>`;
         listCharacters.innerHTML = `${characters}`;
-        showInformation
+        showInformation.disabled = true;
       });
     });
-});
-
+  });
+   charactersEpisode.addEventListener("click", () => {
+    showInformation.disabled = false;
+  });
 let page = 1;
 function genPlanets(page) {
   return `${BASE}planets/?page=${page}`;
@@ -73,7 +75,7 @@ let planet = "";
 let nextPlanet = 1;
 nextPagePlanet.addEventListener("click", () => {
   if (nextPlanet > 16) { 
-    return
+    return (nextPagePlanet.disabled=true);
   } else {
     
     getInformation(genPlanets(page += 1)).then((res) => {
@@ -86,6 +88,7 @@ nextPagePlanet.addEventListener("click", () => {
       listPlanets.innerHTML = `${planet}`;
       });
         nextPlanet += page;
+        nextPagePlanet.disabled=false;
     });
   }
 });
