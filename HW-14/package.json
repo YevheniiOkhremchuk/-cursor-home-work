@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/YevheniiOkhremchuk/home-work-Yevhenii/tree/master/HW-14",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "webpack": "^4.44.1",
